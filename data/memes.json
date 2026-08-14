@@ -1,138 +1,25 @@
 [
-  {
-    "chinese": "有内味了",
-    "pinyin": "yǒu nèi wèi le",
-    "category": "句式梗",
-    "usage": "安全",
-    "explanations": {
-      "en": "'That's the vibe' — Used when something has that authentic, characteristic feel. Originated from gaming/ACG culture.",
-      "ja": "「それっぽい」 — 本物らしい雰囲気を持つときに使う。ゲーム・ACG文化から。",
-      "ko": "'그 맛이야' — 진짜 그 느낌이 난다는 뜻. 게임/ACG 문화에서 유래.",
-      "fr": "'Ça a cette vibe' — Utilisé pour dire que quelque chose a ce feeling authentique. Issu de la culture gaming.",
-      "zh": "有内味了意思是『有那种感觉了』『到位了』。内味是『那一味』的北方方言连读。出自电竞直播，当选手打出精彩操作时观众就会刷『有内味了』。后来推广到各种『对味』的场景。"
-    },
-    "source": "weibo",
-    "date": "2020-03",
-    "is_trending": true,
-    "id": 1
-  },
-  {
-    "chinese": "我太难了",
-    "pinyin": "wǒ tài nán le",
-    "category": "句式梗",
-    "usage": "安全",
-    "explanations": {
-      "en": "'I'm too difficult/My life is so hard' — A popular lament expressing frustration with life's struggles. Often used humorously.",
-      "ja": "「俺、難しすぎる」 — 人生の苦労を嘆く表現。よく冗談交じりに使われる。",
-      "ko": "'나 너무 힘들어' — 인생의 고난에 대한 불평을 표현. 주로 유머러스하게 사용.",
-      "fr": "'C'est trop dur' — Exprime la frustration face aux difficultés de la vie. Souvent utilisé avec humour.",
-      "zh": "我太难了是2019年前后走红的网络用语，表达对生活压力的吐槽和无奈。常配合夸张的表情包使用，既有真实发泄也有自嘲调侃的成分。"
-    },
-    "source": "weibo",
-    "date": "2020-04",
-    "is_trending": true,
-    "id": 2
-  },
-  {
-    "chinese": "黑人抬棺",
-    "pinyin": "hēi rén tái guān",
-    "category": "圈层文化",
-    "usage": "安全",
-    "explanations": {
-      "en": "'Black Men Carrying Coffins' — A viral meme featuring Ghanaian pallbearers dancing with a coffin. Used to signify 'game over' or epic failure.",
-      "ja": "「黒人葬儀ダンス」 — ガーナの葬儀屋が棺桶を担いで踊る動画。大失敗・終了のミーム。",
-      "ko": "'흑인 관 운반' — 가나의 장의사들이 관을 메고 춤추는 바이럴 영상. '게임 오버'를 상징.",
-      "fr": "'Porteurs de cercueil noirs' — Méme viral de porteurs ghanéens dansant avec un cercueil. Signifie 'game over'.",
-      "zh": "黑人抬棺源自一段加纳殡葬团队的视频：他们抬着棺材跳着欢快的舞蹈送葬。网友将其用于配合『计划失败』『游戏结束』等场景，成为全球性的网络迷因。"
-    },
-    "source": "weibo",
-    "date": "2020-04",
-    "is_trending": true,
-    "id": 3
-  },
-  {
-    "chinese": "一起爬山吗",
-    "pinyin": "yì qǐ pá shān ma",
-    "category": "句式梗",
-    "usage": "安全",
-    "explanations": {
-      "en": "'Wanna go hiking?' — A sinister meme from the drama 'The Bad Kids'. Said by a murderer to his victims. Became a dark humor meme.",
-      "ja": "「一緒に山登りしない？」 — ドラマ『隠秘的角落』から。殺人鬼の台詞で、ダークジョークとして。",
-      "ko": "'같이 등산할래?' — 드라마 '은밀한 각도'에서 유래. 살인자의 대사로 암흑 유머로 사용.",
-      "fr": "'On va faire de la randonnée ?' — Méme noir du drama 'The Bad Kids'. Phrase d'un meurtrier devenue virale.",
-      "zh": "一起爬山吗出自2020年的悬疑剧《隐秘的角落》。剧中张东升带岳父母爬山时将他们推下山崖，这句话因此成为暗含杀机的经典台词。网上用来开玩笑地威胁或调侃。"
-    },
-    "source": "baidu",
-    "date": "2020-06",
-    "is_trending": true,
-    "id": 4
-  },
-  {
-    "chinese": "爷青回",
-    "pinyin": "yé qīng huí",
-    "category": "复古词",
-    "usage": "安全",
-    "explanations": {
-      "en": "'My Youth Has Returned' — Abbreviation of 爷的青春回来了. Used when something nostalgic comes back, triggering childhood memories.",
-      "ja": "「俺の青春が戻ってきた」 — 懐かしいものが復活した時の感動を表す略語。",
-      "ko": "'내 청춘이 돌아왔다' — 향수를 불러일으키는 무언가가 돌아왔을 때의 감동을 표현.",
-      "fr": "'Ma jeunesse est de retour' — Abréviation utilisée quand quelque chose de nostalgique fait son retour.",
-      "zh": "爷青回是『爷的青春回来了』的缩写。当看到童年回忆中的动漫、游戏、影视剧重新出现时，网友就会刷『爷青回』来表达激动和怀旧之情。"
-    },
-    "source": "weibo",
-    "date": "2020-09",
-    "is_trending": true,
-    "id": 5
-  },
-  {
-    "chinese": "打工人",
-    "pinyin": "dǎ gōng rén",
-    "category": "职场生活",
-    "usage": "安全",
-    "explanations": {
-      "en": "'Wage Worker' — A self-deprecating term for office workers/employees who are tired of the grind. Became a rallying cry for the working class.",
-      "ja": "「労働者」 — サラリーマンや労働者が自己卑下する言葉。労働者階級の合言葉に。",
-      "ko": "'월급쟁이' — 직장인의 자조적 표현. 노동자 계급의 구호가 됨.",
-      "fr": "'Travailleur salarié' — Terme d'autodérision pour les employés, cri de ralliement de la classe ouvrière.",
-      "zh": "打工人是上班族的自嘲式自称，强调自己是『打工』的普通人。这个词在2020年秋天引爆网络，表达了年轻人对工作压力的吐槽，也带有一丝彼此鼓励的温暖。"
-    },
-    "source": "weibo",
-    "date": "2020-10",
-    "is_trending": true,
-    "id": 6
-  },
-  {
-    "chinese": "蚌埠住了",
-    "pinyin": "bèng bù zhù le",
-    "category": "句式梗",
-    "usage": "安全",
-    "explanations": {
-      "en": "'Can't Hold It' — A pun on '崩不住了' (can't hold it together), using the city name Bengbu. Means 'I can't stop laughing / I'm losing it'.",
-      "ja": "「笑いが止まらない」 — 「崩不住了（我慢できない）」の駄洒落。笑いが止まらない時の表現。",
-      "ko": "'참을 수 없어' — '崩不住了(참을 수 없다)'의 말장난. 웃음을 참을 수 없을 때 사용.",
-      "fr": "'J'en peux plus' — Jeu de mots sur l'expression 'je craque'. Montre qu'on n'en peut plus de rire.",
-      "zh": "蚌埠住了是『崩不住了』的谐音双关，借用了安徽城市蚌埠的名字。意指忍不住笑了、绷不住了。在网络评论区高频使用，常配合搞笑段子出现。"
-    },
-    "source": "weibo",
-    "date": "2021-01",
-    "is_trending": true,
-    "id": 7
-  },
-  {
-    "chinese": "小丑竟是我自己",
-    "pinyin": "xiǎo chǒu jìng shì wǒ zì jǐ",
-    "category": "句式梗",
-    "usage": "安全",
-    "explanations": {
-      "en": "'The Joker Is Me' — A self-mocking phrase used when you realize you've been the fool in a situation. Based on the Joker character.",
-      "ja": "「ピエロは私だった」 — 自分が笑い者だったと気づいた時の自嘲的な言葉。ジョーカーから。",
-      "ko": "'광대는 바로 나' — 자신이 바보였다는 걸 깨달았을 때의 자조적 표현. 조커 캐릭터에서 유래.",
-      "fr": "'Le clown, c'est moi' — Phrase d'autodérision quand on réalise qu'on a été le dindon de la farce.",
-      "zh": "小丑竟是我自己出自蝙蝠侠系列中的角色小丑。当一个人意识到自己在一段关系或事件中是被耍的那个——不是笑看别人的小丑，而是小丑本人——就会用这句话来自嘲。"
-    },
-    "source": "weibo",
-    "date": "2021-03",
-    "is_trending": true,
-    "id": 8
-  }
+  {"id":1,"chinese":"内卷","pinyin":"nèi juǎn","category":"职场生活","usage":"安全","explanations":{"en":"Involution — fierce, counterproductive competition where everyone works harder but nobody gets ahead. A buzzword for the exhausting rat race in Chinese society.","ja":"インボリューション — 過度な競争により誰も得をしない状態。中国社会の疲弊する競争社会を表す流行語。","ko":"인볼루션 — 모두가 더 열심히 일하지만 아무도 앞서 나가지 못하는 과도한 경쟁. 중국 사회의 지친 경쟁을 나타내는 신조어.","fr":"Involution — compétition épuisante où tout le monde travaille plus sans aucun bénéfice. Représente la course effrénée dans la société chinoise.","zh":"内卷指一种过度竞争、互相消耗的状态。所有人都拼命努力，但整体收益却没有提高，反而让每个人都更累。源于英文 involution（内卷化）。常用来形容教育、职场等领域中无意义的激烈竞争。"},"source":"classic","date":"2024-01-15","is_trending":false},
+  {"id":2,"chinese":"躺平","pinyin":"tǎng píng","category":"职场生活","usage":"安全","explanations":{"en":"Lying Flat — a lifestyle choice to reject the rat race, stop chasing wealth and status, and live a simple, low-effort life.","ja":"寝そべり — 競争社会から降り、シンプルで負担のない生活を選ぶ生き方。","ko":"눕다 — 경쟁 사회에서 내려와 단순하고 스트레스 없는 삶을 선택하는 라이프스타일.","fr":"S'allonger — choix de vie consistant à rejeter la course effrénée et à mener une vie simple et sans pression.","zh":"躺平是一种拒绝过度竞争、追求低欲望生活的态度。与内卷相反，躺平族选择不买房、不结婚、不生子，以最低成本维持生存，追求精神自由而非物质积累。"},"source":"classic","date":"2024-01-15","is_trending":false},
+  {"id":3,"chinese":"芭比Q了","pinyin":"bā bǐ Q le","category":"句式梗","usage":"安全","explanations":{"en":"Barbecue'd — slang for 'it's all over', 'everything is ruined'. Derived from the English 'barbecue' pronounced in a funny Chinese way, popularized by a gaming streamer.","ja":"バーベキューだ — 「終わった」「台無しだ」の意味。ゲーム配信者が広めた中国語風の発音から。","ko":"바베큐 됐다 — '망했다', '끝장났다'는 뜻. 게임 스트리머가 유행시킨 중국식 영어 발음에서 유래.","fr":"C'est cuit — 'tout est foutu'. Calque humoristique de 'barbecue' prononcé à la chinoise, popularisé par un streameur.","zh":"芭比Q了是英文 barbecue 的中文谐音，意思是『完了』『糟糕了』。源自游戏主播在直播时的一句口头禅，因为发音搞笑而走红网络。通常用来表达事情搞砸了、没办法了。"},"source":"classic","date":"2024-02-10","is_trending":false},
+  {"id":4,"chinese":"社恐","pinyin":"shè kǒng","category":"社交情绪","usage":"安全","explanations":{"en":"Social Anxiety — abbreviation of 'social phobia' (社交恐惧症). Used to describe people who feel anxious in social situations.","ja":"社交不安 — 「社交恐惧症」の略。人との交流に不安を感じる人を指す。","ko":"사회공포증 — '사회공포증(社交恐惧症)'의 줄임말. 사회적 상황에서 불안을 느끼는 사람을 표현.","fr":"Anxiété sociale — abréviation de 'phobie sociale'. Désigne une personne qui ressent de l'anxiété en société.","zh":"社恐是社交恐惧症的简称，指在社交场合中感到紧张、焦虑的人。网络上很多人用『社恐』来自嘲，形容自己不善交际、害怕与人打交道。与之相对的是『社牛』（社交牛X症）。"},"source":"classic","date":"2024-03-01","is_trending":false},
+  {"id":5,"chinese":"绝绝子","pinyin":"jué jué zǐ","category":"句式梗","usage":"安全","explanations":{"en":"Absolutely Amazing — an exaggerated way to say something is incredible, stunning, or top-tier. Often used by young women on social media.","ja":"最高すぎる — 「絶句」の強調形。特に若い女性がSNSで感動や絶賛を表現する時に使う。","ko":"완전 대박 — '기가 막히다'를 강조한 표현. 주로 젊은 여성들이 SNS에서 감탄할 때 사용.","fr":"Absolument incroyable — une façon exagérée de dire que quelque chose est époustouflant, souvent utilisé par les jeunes femmes.","zh":"绝绝子是『绝了』的加强版后缀表达，意思是『太厉害了』『好到极致』。是典型的网络语言，常见于美妆、美食、追星等社交平台评论区，带有一丝夸张的可爱语气。"},"source":"classic","date":"2024-03-01","is_trending":false},
+  {"id":6,"chinese":"YYDS","pinyin":"yǒng yuǎn de shén","category":"常青词","usage":"安全","explanations":{"en":"Eternal God / GOAT — abbreviation of 永远的神 (yǒng yuǎn de shén). Used to praise someone or something as the greatest of all time.","ja":"永遠の神 — 「永遠的神（永遠の神）」の略。誰かや何かを最高だと褒める言葉。","ko":"영원의 신 — '永遠的神(영원의 신)'의 약자. 누군가 또는 무언가를 최고라고 칭송할 때 사용.","fr":"Dieu éternel — abréviation de '永远的神'. Utilisé pour qualifier quelqu'un ou quelque chose de légendaire.","zh":"YYDS 是『永远的神』的拼音缩写，相当于英文的 GOAT（Greatest of All Time）。用来形容某人或某物非常厉害、无可替代。最早出现在电竞圈，后来成为全民通用的称赞语。"},"source":"classic","date":"2024-03-15","is_trending":false},
+  {"id":7,"chinese":"破防了","pinyin":"pò fáng le","category":"社交情绪","usage":"安全","explanations":{"en":"Emotional Breach — 'defenses broken'. Used when something emotionally overwhelms you — makes you cry, laugh uncontrollably, or feel deeply touched.","ja":"心がやられた — 感情の防壁が崩れること。感動で涙が出る、または強い衝撃を受けた時に使う。","ko":"멘탈 붕괴 — '방어가 뚫렸다'는 뜻. 감정적으로 압도당해 눈물이 나거나 크게 감동받았을 때 사용.","fr":"Défenses percées — quand quelque chose vous submerge émotionnellement, vous fait pleurer ou rire aux larmes.","zh":"破防了原指游戏中的防御被打破，网络用语指心理防线被突破。当看到特别感动、戳心的内容时，会说我破防了。是2021年的年度网络热词之一。"},"source":"classic","date":"2024-04-01","is_trending":false},
+  {"id":8,"chinese":"凡尔赛","pinyin":"fán ěr sài","category":"社交情绪","usage":"安全","explanations":{"en":"Versailles / Humblebrag — named after the Palace of Versailles. Describes a covert boast disguised as a complaint or casual remark.","ja":"ヴェルサイユ — ヴェルサイユ宮殿にちなむ。不満や何気ない話に装った自慢話のこと。","ko":"베르사유 — 베르사유 궁전에서 유래. 불평이나 일상적인 대화로 위장한 은근한 자랑.","fr":"Versailles / Humblebrag — nommé d'après le palais de Versailles. Désigne une vantardise déguisée en plainte.","zh":"凡尔赛指用一种看似抱怨或低调的方式炫耀自己。源自漫画《凡尔赛玫瑰》，形容贵族式的奢华生活。比如『老公又给我买了个包，好烦哦，家里都放不下了』就是标准的凡尔赛文学。"},"source":"classic","date":"2024-04-10","is_trending":false},
+  {"id":9,"chinese":"emo了","pinyin":"yī mó le","category":"社交情绪","usage":"安全","explanations":{"en":"Feeling Emo — borrowed from English 'emo'. Used to say you're feeling sad, melancholic, or emotionally fragile.","ja":"エモい — 英語の「emo」から。悲しい、憂鬱、感情的に脆い状態を表す。","ko":"에모다 — 영어 'emo'에서 유래. 슬프고 우울하며 감정적으로 취약한 상태를 표현.","fr":"Être emo — emprunté à l'anglais. Exprime un état de tristesse, mélancolie ou fragilité émotionnelle.","zh":"emo 了从英文 emo（emotional）而来，指情绪低落、伤感的状态。深夜听着伤感的歌，翻着旧照片，突然觉得很难过——这时候就可以说我 emo 了。在网络上常配合『深夜emo』使用。"},"source":"classic","date":"2024-04-15","is_trending":false},
+  {"id":10,"chinese":"栓Q","pinyin":"shuān Q","category":"句式梗","usage":"安全","explanations":{"en":"Thank You (funny version) — a humorous mispronunciation of 'thank you', popularized by a viral video. Commonly used online to say thanks in a funny way.","ja":"サンキュー（笑） — 「thank you」の面白い中国語発音。バイラル動画で流行し、ネットで冗談交じりの感謝に使われる。","ko":"감사합니다 (웃긴 버전) — 'thank you'의 웃긴 중국식 발음. 바이럴 영상으로 유행했으며, 온라인에서 재치 있게 감사 표현할 때 사용.","fr":"Merci (version drôle) — prononciation humoristique chinoise de 'thank you', popularisée par une vidéo virale.","zh":"栓Q 是英文 thank you 的中文谐音搞笑读法，由一位广西农民在英语教学视频中用浓重方言说出后走红。常用于网络评论区，表达一种幽默的感谢或无语吐槽。"},"source":"classic","date":"2024-05-01","is_trending":false},
+  {"id":11,"chinese":"无语","pinyin":"wú yǔ","category":"常青词","usage":"安全","explanations":{"en":"Speechless — Used when something is so absurd, ridiculous, or frustrating that you have no words.","ja":"言葉が出ない — あまりにばかげていたり呆れたりして言葉を失うこと。","ko":"어이없다 — 너무 황당하거나 어처구니없어 할 말을 잃은 상태.","fr":"Sans voix — Utilisé face à une situation tellement absurde qu'on ne trouve pas ses mots.","zh":"无语就是『无话可说』。当遇到让人无语的事情——比如朋友做了一件很离谱的事、看到了令人窒息的言论——就可以简单回复『无语』来表达无奈和无法理解的心情。"},"source":"classic","date":"2024-05-10","is_trending":false},
+  {"id":12,"chinese":"显眼包","pinyin":"xiǎn yǎn bāo","category":"社交情绪","usage":"安全","explanations":{"en":"Attention Seeker — literally 'conspicuous bag'. Describes someone who deliberately acts out to get attention.","ja":"目立ちたがり — 文字通り「目立つ袋」。","ko":"관종 — 문자 그대로 '눈에 띄는 가방'.","fr":"L'accrocheur — littéralement 'sac voyant'.","zh":"显眼包字面意思是『显眼的袋子』，指那些爱出风头、故意做一些引人注目的事情的人。类似『戏精』，但语气更偏调侃。2023年起成为高频网络用语。"},"source":"classic","date":"2024-06-01","is_trending":false},
+  {"id":13,"chinese":"遥遥领先","pinyin":"yáo yáo lǐng xiān","category":"圈层文化","usage":"安全","explanations":{"en":"Far Ahead — originally used by Huawei in product launches. Became a popular rallying cry for Chinese tech pride.","ja":"大きくリード — ファーウェイが製品発表で使用したフレーズ。","ko":"압도적 선두 — 화웨이가 제품 발표에서 사용한 표현.","fr":"Largement en tête — expression utilisée par Huawei lors de lancements de produits.","zh":"遥遥领先是华为发布会上的高频词，余承东在介绍产品性能时反复使用。这个词在网络上被网友玩梗，既可以用来称赞国产技术的突破，也有调侃的用法。"},"source":"classic","date":"2024-06-15","is_trending":false},
+  {"id":14,"chinese":"小土豆","pinyin":"xiǎo tǔ dòu","category":"社交情绪","usage":"安全","explanations":{"en":"Little Potato — an affectionate term for tourists from southern China who visit Harbin in winter.","ja":"小さなジャガイモ — 冬にハルビンを訪れる南方からの観光客を親しみを込めて呼ぶ言葉。","ko":"작은 감자 — 겨울에 하얼빈을 방문하는 남부 중국 관광객을 애정을 담아 부르는 표현.","fr":"Petite pomme de terre — terme affectueux pour les touristes du sud de la Chine visitant Harbin en hiver.","zh":"小土豆是2024年初哈尔滨旅游热中诞生的网络用语。南方游客因为个子相对娇小、穿着厚实的羽绒服，看起来像一颗颗土豆，被东北网友亲切地称为南方小土豆。"},"source":"weibo","date":"2025-12-10","is_trending":false},
+  {"id":15,"chinese":"泼天富贵","pinyin":"pō tiān fù guì","category":"职场生活","usage":"安全","explanations":{"en":"Overwhelming Fortune — literally 'splashing sky fortune'. Used to describe an unexpectedly huge windfall or lucky break.","ja":"降って湧いた大金 — 文字通り「天から降る富」。","ko":"엄청난 행운 — 문자 그대로 '하늘에서 쏟아지는 부'.","fr":"Fortune débordante — littéralement 'fortune qui éclabousse le ciel'.","zh":"泼天富贵字面意思是『像泼水一样多的富贵』。形容突然降临的巨大财富或好运，常用来形容某品牌或产品因网络热度而销售暴增。"},"source":"weibo","date":"2025-12-15","is_trending":false},
+  {"id":16,"chinese":"有内味了","pinyin":"yǒu nèi wèi le","category":"句式梗","usage":"安全","explanations":{"en":"'That's the vibe' — Used when something has that authentic, characteristic feel. Originated from gaming/ACG culture.","ja":"「それっぽい」 — 本物らしい雰囲気を持つときに使う。","ko":"'그 맛이야' — 진짜 그 느낌이 난다는 뜻.","fr":"'Ça a cette vibe' — Utilisé pour dire que quelque chose a ce feeling authentique.","zh":"有内味了意思是『有那种感觉了』『到位了』。内味是『那一味』的北方方言连读。出自电竞直播。"},"source":"weibo","date":"2020-03-01","is_trending":false},
+  {"id":17,"chinese":"我太难了","pinyin":"wǒ tài nán le","category":"句式梗","usage":"安全","explanations":{"en":"'My life is so hard' — A popular lament expressing frustration with life's struggles. Often used humorously.","ja":"「俺、難しすぎる」 — 人生の苦労を嘆く表現。","ko":"'나 너무 힘들어' — 인생의 고난에 대한 불평.","fr":"'C'est trop dur' — Exprime la frustration face aux difficultés.","zh":"我太难了是2019年前后走红的网络用语，表达对生活压力的吐槽和无奈。"},"source":"weibo","date":"2020-04-01","is_trending":false},
+  {"id":18,"chinese":"黑人抬棺","pinyin":"hēi rén tái guān","category":"圈层文化","usage":"背景","explanations":{"en":"'Black Men Carrying Coffins' — A viral meme featuring Ghanaian pallbearers dancing with a coffin.","ja":"「黒人葬儀ダンス」 — ガーナの葬儀屋が棺桶を担いで踊る動画。","ko":"'흑인 관 운반' — 가나의 장의사들이 관을 메고 춤추는 바이럴 영상.","fr":"'Porteurs de cercueil noirs' — Méme viral de porteurs ghanéens.","zh":"黑人抬棺源自一段加纳殡葬团队的视频：他们抬着棺材跳着欢快的舞蹈送葬。网友将其用于配合『计划失败』『游戏结束』等场景。"},"source":"weibo","date":"2020-04-01","is_trending":false},
+  {"id":19,"chinese":"一起爬山吗","pinyin":"yì qǐ pá shān ma","category":"句式梗","usage":"慎用","explanations":{"en":"'Wanna go hiking?' — A sinister meme from the drama 'The Bad Kids'. Said by a murderer to his victims. Dark humor.","ja":"「一緒に山登りしない？」 — ドラマ『隠秘的角落』から。殺人鬼の台詞。","ko":"'같이 등산할래?' — 드라마 '은밀한 각도'에서 유래. 살인자의 대사.","fr":"'On va faire de la randonnée ?' — Méme noir du drama 'The Bad Kids'.","zh":"一起爬山吗出自2020年的悬疑剧《隐秘的角落》。剧中张东升带岳父母爬山时将他们推下山崖，这句话因此成为暗含杀机的经典台词。"},"source":"baidu","date":"2020-06-01","is_trending":false},
+  {"id":20,"chinese":"爷青回","pinyin":"yé qīng huí","category":"复古词","usage":"安全","explanations":{"en":"'My Youth Has Returned' — Abbreviation of 爷的青春回来了. Used when something nostalgic comes back.","ja":"「俺の青春が戻ってきた」 — 懐かしいものが復活した時の感動。","ko":"'내 청춘이 돌아왔다' — 향수를 불러일으키는 무언가가 돌아왔을 때.","fr":"'Ma jeunesse est de retour' — Quand quelque chose de nostalgique fait son retour.","zh":"爷青回是『爷的青春回来了』的缩写。当看到童年回忆中的动漫、游戏、影视剧重新出现时，网友就会刷『爷青回』。"},"source":"weibo","date":"2020-09-01","is_trending":false},
+  {"id":21,"chinese":"打工人","pinyin":"dǎ gōng rén","category":"职场生活","usage":"安全","explanations":{"en":"'Wage Worker' — A self-deprecating term for office workers tired of the grind. Became a rallying cry.","ja":"「労働者」 — サラリーマンや労働者が自己卑下する言葉。","ko":"'월급쟁이' — 직장인의 자조적 표현.","fr":"'Travailleur salarié' — Terme d'autodérision pour les employés.","zh":"打工人是上班族的自嘲式自称，强调自己是『打工』的普通人。2020年秋天引爆网络。"},"source":"weibo","date":"2020-10-01","is_trending":false},
+  {"id":22,"chinese":"蚌埠住了","pinyin":"bèng bù zhù le","category":"句式梗","usage":"安全","explanations":{"en":"'Can't Hold It' — A pun on '崩不住了' (can't hold it together), using the city name Bengbu.","ja":"「笑いが止まらない」 — 「崩不住了」の駄洒落。","ko":"'참을 수 없어' — '崩不住了'의 말장난.","fr":"'J'en peux plus' — Jeu de mots sur l'expression 'je craque'.","zh":"蚌埠住了是『崩不住了』的谐音双关，借用了安徽城市蚌埠的名字。意指忍不住笑了、绷不住了。"},"source":"weibo","date":"2021-01-01","is_trending":false},
+  {"id":23,"chinese":"小丑竟是我自己","pinyin":"xiǎo chǒu jìng shì wǒ zì jǐ","category":"句式梗","usage":"安全","explanations":{"en":"'The Joker Is Me' — A self-mocking phrase when you realize you've been the fool. Based on the Joker.","ja":"「ピエロは私だった」 — 自分が笑い者だったと気づいた時の自嘲。","ko":"'광대는 바로 나' — 자신이 바보였다는 걸 깨달았을 때의 자조.","fr":"'Le clown, c'est moi' — Phrase d'autodérision.","zh":"小丑竟是我自己出自蝙蝠侠系列中的角色小丑。当一个人意识到自己在一段关系或事件中是被耍的那个。"},"source":"weibo","date":"2021-03-01","is_trending":false}
 ]
