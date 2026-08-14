@@ -144,7 +144,7 @@ def simple_pinyin(text):
     return ' '.join(result)
 
 # ── GitHub config ───────────────────────────────────────────
-GITHUB_OWNER = 'WenKanghwdd'
+GITHUB_OWNER = 'lfiona244-beep'
 GITHUB_REPO = 'china-meme-dictionary'
 # Token is read from GITHUB_TOKEN env var (set in workflow)
 
@@ -448,6 +448,34 @@ def fetch_source(source):
         print(f"  [WARN] {name} error: {e}")
     return []
 
+# ── Category classifier ────────────────────────────────────
+CATEGORY_KEYWORDS = {
+    '句式梗': ['了', '吗', '呢', '吧', '啊', '吗', '我', '你', '他', '什么', '怎么', '不', '是', '的', '就', '有', '没', 'Q', '吗'],
+    '社交情绪': ['恐', '感', '情', '心', '爱', '恨', '伤', '哭', '笑', '怒', '怕', '烦', '累', '社', 'emo', '破防', '凡尔赛', '小土豆'],
+    '职场生活': ['工', '班', '卷', '躺', '薪', '资', '钱', '富', '贵', '穷', '买', '房', '内卷', '躺平', '打工人', '泼天富贵'],
+    '圈层文化': ['领', '先', '神', '绝', '黑', '抬', '棺', '遥遥领先', '黑人', '梗', '圈', '粉', '谷子', '痛文化', 'AI', '人格', '抽象'],
+    '常青词': ['YYDS', '666', '无语', 'XSWL', 'U1S1', 'NSDD', 'AWSL', '摸鱼', '社死', '拿捏', '好家伙', '稳了', '安排'],
+    '复古词': ['爷', '青', '回', '886', '踩', '冒', '泡', '路', '过', '沙发', '顶', '火钳', '刘明', 'QQ', '空间', '留言板'],
+}
+
+def guess_category(text):
+    """Guess meme category based on keyword matching."""
+    scores = {}
+    for cat, kws in CATEGORY_KEYWORDS.items():
+        score = sum(1 for kw in kws if kw in text)
+        if score > 0:
+            scores[cat] = score
+    if scores:
+        return max(scores, key=scores.get)
+    # Default fallback
+    if re.search(r'[A-Za-z]', text) and not re.search(r'[\u4e00-\u9fff]', text):
+        return '常青词'
+    if text.endswith('了') or text.endswith('吗') or text.endswith('吧'):
+        return '句式梗'
+    if len(text) <= 4:
+        return '社交情绪'
+    return '圈层文化'
+
 # ── Main logic ─────────────────────────────────────────────
 def load_existing_data():
     """Load existing memes.json. Return (classics, trending, all_ids, existing_map)."""
@@ -511,6 +539,8 @@ def build_new_meme(chinese, source, date_str):
     return {
         'chinese': chinese,
         'pinyin': pinyin,
+        'category': guess_category(chinese),
+        'usage': '安全',
         'explanations': exps,
         'source': source or 'web',
         'date': date_str,
@@ -519,9 +549,15 @@ def build_new_meme(chinese, source, date_str):
 
 def main():
     print("=" * 50)
-    print("China Meme Dictionary — Scraper v1.0")
+    print("词话 Zhargon — Scraper v2.0")
     print(f"Date: {datetime.now(timezone.utc).astimezone().strftime('%Y-%m-%d %H:%M')}")
     print("=" * 50)
+
+    # 1. Load existing data
+    classics, old_trending, existing_map = load_existing_data()
+    all_existing = classics + old_trending
+    existing_ids = set(m.get('id', 0) for m in all_existing if m.get('id'))
+    today = datetime.now(timezone.utc).astimezone().strftime('%Y-%m-%d')
 
     # 2. Process user-submitted suggestions from GitHub Issues
     open_issues = fetch_suggestion_issues()
@@ -548,9 +584,9 @@ def main():
         terms = fetch_source(src)
         print(f"    Got {len(terms)} terms from {src['name']}")
         all_raw.extend(terms)
-        time.sleep(1.5)  # Rate limiting
+        time.sleep(1.5)
 
-    # 3. Extract unique chinese terms, sorted by popularity
+    # 4. Extract unique chinese terms, sorted by popularity
     seen_titles = set()
     deduped_raw = []
     for t in all_raw:
@@ -559,18 +595,18 @@ def main():
             seen_titles.add(title)
             deduped_raw.append(t)
 
-    # 4. Filter and deduplicate
+    # 5. Filter and deduplicate
     candidate_terms = [{'chinese': t['title'], 'hot': t['hot']} for t in deduped_raw]
     filtered = deduplicate_terms(candidate_terms, existing_map)
 
-    # 5. Take top 10 from live scrape
+    # 6. Take top from live scrape
     live_trending = filtered[:10]
 
-    # 6. 🔥 FALLBACK LOGIC
+    # 7. Build new trending list
     TARGET_COUNT = 8
     new_trending = []
 
-    # 6a. Add user-suggested terms first
+    # 7a. Add user-suggested terms first
     for item in user_suggested:
         meme = build_new_meme(item['term'], 'user-suggestion', today)
         new_trending.append(meme)
@@ -578,7 +614,7 @@ def main():
         print(f"  User suggestion: {item['term']}")
         close_issue(item['issue_number'])
 
-    # 6b. Add live-scraped terms
+    # 7b. Add live-scraped terms
     for ft in live_trending:
         if len(new_trending) >= TARGET_COUNT:
             break
@@ -592,14 +628,14 @@ def main():
             new_trending.append(meme)
             print(f"  New trending: {ft['chinese']}")
 
-    # 6c. Preserve old trending if live scrape found nothing fresh
+    # 7c. Preserve old trending if live scrape found nothing
     if len(new_trending) == 0 and old_trending:
         print(f"  No new trending found. Preserving {len(old_trending)} existing trending entries.")
         for m in old_trending:
             m['date'] = m.get('date', today)
             new_trending.append(m)
 
-    # 6d. Supplement with historical archive if still below target
+    # 7d. Supplement with historical archive
     if len(new_trending) < TARGET_COUNT:
         need = TARGET_COUNT - len(new_trending)
         print(f"  Supplementing with {need} from history archive...")
@@ -612,6 +648,8 @@ def main():
             chinese, pinyin, en, ja, ko, fr, zh, period_label, source = h
             meme = {
                 'chinese': chinese, 'pinyin': pinyin,
+                'category': guess_category(chinese),
+                'usage': '安全',
                 'explanations': {'en': en, 'ja': ja, 'ko': ko, 'fr': fr, 'zh': zh},
                 'source': source, 'date': period_label,
                 'is_trending': True,
@@ -620,22 +658,27 @@ def main():
             print(f"  + History ({period_label}): {chinese}")
             need -= 1
 
-    # 7. Assign IDs to entries without one
+    # 8. Assign IDs to entries without one
     new_trending = assign_ids(new_trending, existing_ids)
 
-    # 8. Ensure all classics retain is_trending=false, remove internal flag
+    # 9. Ensure all classics have correct flags
     for c in classics:
         c['is_trending'] = False
         c.pop('_historical', None)
+        # Ensure category and usage exist
+        if 'category' not in c:
+            c['category'] = guess_category(c['chinese'])
+        if 'usage' not in c:
+            c['usage'] = '安全'
 
     for nt in new_trending:
         nt.pop('_historical', None)
 
-    # 9. Merge
+    # 10. Merge
     output = classics + new_trending
     output.sort(key=lambda x: x.get('id', 9999))
 
-    # 10. Write
+    # 11. Write
     os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
     with open(DATA_FILE, 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
